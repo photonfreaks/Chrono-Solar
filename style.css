@@ -1,0 +1,156 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 18px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: white;
+  opacity: 0.85;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background: rgba(255,255,255,0.35);
+  opacity: 1;
+}
+
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 40px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+
+.main-box {
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+
+.grid-boxes {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 26px;
+  width: 100%;
+}
+
+
+.grid-boxes .card {
+  width: 100%;
+  margin: 0;
+}
+
+
+.card {
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(10px);
+  padding: 22px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 36px rgba(0,0,0,0.5);
+}
+
+
+.red {
+  border-top: 10px solid #ff4b5c;
+}
+
+.green {
+  border-top: 10px solid #4cd964;
+}
+
+.blue {
+  border-top: 10px solid #5ac8fa;
+}
+.clear {
+  border-top: 10px solid #ffffff;
+}
+
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 8px 0 0;
+}
+
+
+input,
+select {
+  width: 46%;
+  padding: 12px;
+  margin: 6px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 14px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  box-shadow: 0 6px 18px rgba(221,36,118,0.5);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 26px rgba(221,36,118,0.75);
+}
