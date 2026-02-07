@@ -59,7 +59,7 @@ PWM-controlled Cool White LED for higher color temperature and alertness enhance
 PWM-controlled Warm White LED for lower color temperature and visual comfort
 Dynamic adjustment of ambient color temperature to match circadian requirements
 Real-time system status and sensor data visualization on the IoT dashboard
----
+
 
 ## 📊 IoT Dashboard & Monitoring
 
@@ -77,7 +77,7 @@ System status, PWM levels, and lighting mode
 Remote monitoring and future scope for manual overrides
 
 This dashboard helps users understand what the lighting should be and what the environment currently provides, ensuring effective circadian alignment.
----
+
 
 ## 📈 Scalability & Cost Analysis
 - Existing commercial solutions: ₹8,000 – ₹12,000  
