@@ -81,7 +81,7 @@ This dashboard helps users understand what the lighting should be and what the e
 
 ## 📈 Scalability & Cost Analysis
 - Existing commercial solutions: ₹8,000 – ₹12,000  
-- Sun-Sync prototype cost: ₹2,000 – ₹2,500  
+- Chrono-Solar prototype cost: ₹2,000 – ₹2,500  
 - Projected mass production cost: ₹900 – ₹1,200  
 
 ---
